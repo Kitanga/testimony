@@ -1,0 +1,34 @@
+/* Title Styles */
+#title {
+  background-color: black;
+  color: wheat;
+  padding: 0.43rem;
+}
+
+#title .container {
+  display: flex;
+}
+
+#title h1 {
+  margin: 0;
+}
+
+#title .align-nav-action {
+  font-size: 3.4rem;
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+#title .align-nav-action a {
+  right: 0;
+  position: absolute;
+  color: wheat;
+}
+
+/* Daily Verse Styles */
+p#mannaverse-reference {
+  text-align: right;
+}
+p#mannaverse-reference:before {
+  content: '- ';
+}
