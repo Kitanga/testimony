@@ -32,3 +32,10 @@ p#mannaverse-reference {
 p#mannaverse-reference:before {
   content: '- ';
 }
+
+input {
+  font-size: 1.5em;
+  background-color: #ccc;
+  margin: 20px;
+  padding: 40px;
+}

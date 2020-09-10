@@ -11,12 +11,47 @@
     -->
   <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
   <title>Testimony - Testimony Sharing Site</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/skeleton-css@2.0.4/css/normalize.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/skeleton-css@2.0.4/css/skeleton.min.css">
+
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../app.css">
+
 </head>
 
 <body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
+ <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="title">
+      <div class="container">
+        <div>
+            <h1>Add a New Testimony</h1>
+        </div>
+      </div>
+    </div>
+    <form>
+      <div>
+        <label for="Title">Title</label>
+        <input type="text" name="title" id="Title" required>
+      </div>
+      <div>
+        <label for="exampleContent">Content</label>
+         <textarea class="u-full-width" placeholder="Hey child of God …" id="Content"></textarea>
+         <button class="button-primary" id="submitButton" type="button">Submit</button>
+      </div>
+      
+         
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js" integrity="sha256-uNYoXefWRqv+PsIF/OflNmwtKM4lStn9yrz2gVl6ymo=" crossorigin="anonymous"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
 
-  <h1>Add a new testimony</h1>
-</body>
+    <script type="text/javascript" src=".././app.js"></script>
+    
+  </form>
+  </body>
 
 </html>
