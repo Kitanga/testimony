@@ -3,10 +3,14 @@
   background-color: black;
   color: wheat;
   padding: 0.43rem;
+  margin-bottom: 25px;
+}
+#home #title {
+  height: 56.6px;
 }
 
 #title .container {
-  display: flex;
+  height: 100%;
 }
 
 #title h1 {
@@ -18,11 +22,12 @@
   display: flex;
   align-items: center;
   text-align: right;
+  height: 100%;
 }
 #title .align-nav-action a {
   right: 0;
   position: absolute;
-  color: wheat;
+  color: wheat !important;
 }
 
 /* Daily Verse Styles */
@@ -36,6 +41,11 @@ p#mannaverse-reference:before {
 input {
   font-size: 1.5em;
   background-color: #ccc;
-  margin: 20px;
+  margin-bottom: 20px 0;
   padding: 40px;
+}
+
+button:disabled {
+  background-color: grey !important;
+  border-color: grey !important;
 }

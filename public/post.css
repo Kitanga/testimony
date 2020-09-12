@@ -1,0 +1,24 @@
+.content-post {
+  margin-bottom: 25px;
+}
+
+.post-content {
+  border-style: solid;
+  border-color: grey;
+  padding: 20px;
+}
+
+.post-title {
+  background-color: gold;
+  border-color: grey;
+  border-left-style: solid;
+  padding: 2px 4px;
+}
+
+.post-date {
+  text-align: right;
+}
+
+.post-date span {
+  border-bottom: solid blue;
+}
